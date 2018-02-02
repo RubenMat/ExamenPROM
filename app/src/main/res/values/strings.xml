@@ -1,0 +1,30 @@
+<resources>
+    <string-array name="animales">
+        <item>Burro</item>
+        <item>Caballo</item>
+        <item>Cabra</item>
+        <item>Gallina</item>
+        <item>Gallo</item>
+        <item>Gato</item>
+        <item>Oveja</item>
+        <item>Vaca</item>
+    </string-array>
+    <string name="app_name">Examen PROM</string>
+    <string name="titulo1">MENU PRINCIPAL</string>
+    <string name="btnTiempo">EL TIEMPO</string>
+    <string name="btnAtomicos">DATOS ATOMICOS</string>
+    <string name="btnMultimedia">MULTIMEDIA</string>
+    <string name="btnSalir">SALIR</string>
+
+    <string name="Vitoria">Vitoria-Gasteiz</string>
+    <string name="Bilbao">Bilbao</string>
+    <string name="Donosti">Donostia-San Sebastián</string>
+    <string name="textoArriba">Escoge una de las siguiente localidades</string>
+    <string name="textoMedio">Tiempo actual en: </string>
+    <string name="Volver">Volver</string>
+
+    <string name="textoAtomico">Introduce nombre de elemento químico:</string>
+    <string name="btnInformacion">INFORMACION DEL ELEMENTO</string>
+
+    <string name="multimedia">Animales de Granja</string>
+</resources>

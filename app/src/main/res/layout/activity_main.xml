@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dm2.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo1"
+        android:textSize="50px"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="20px"
+        android:id="@+id/titulo1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnTiempo"
+        android:layout_below="@id/titulo1"
+        android:layout_marginLeft="130dp"
+        android:text="@string/btnTiempo"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAtomicos"
+        android:layout_below="@+id/btnTiempo"
+        android:layout_alignLeft="@+id/btnTiempo"
+        android:text="@string/btnAtomicos"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMultimedia"
+        android:layout_alignLeft="@id/btnTiempo"
+        android:layout_below="@+id/btnAtomicos"
+        android:text="@string/btnMultimedia"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSalir"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="250dp"
+        android:text="@string/btnSalir"/>
+
+</RelativeLayout>

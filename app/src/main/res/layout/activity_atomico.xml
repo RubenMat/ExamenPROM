@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dm2.myapplication.Atomico">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAtomico"
+        android:text="@string/textoAtomico"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtElemento"
+        android:layout_below="@id/txtAtomico"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnInfo"
+        android:layout_below="@id/txtElemento"
+        android:layout_marginLeft="75dp"
+        android:text="@string/btnInformacion"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnInfo"
+        android:textSize="20dp"
+        android:id="@+id/lblSimbolo"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblSimbolo"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:id="@+id/lblNumero"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblNumero"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:id="@+id/lblPeso"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblPeso"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:id="@+id/lblEbullicion"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblEbullicion"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:id="@+id/lblDensidad"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnVolverAtomico"
+        android:layout_below="@id/lblDensidad"
+        android:layout_marginLeft="250dp"
+        android:text="@string/Volver"/>
+
+</RelativeLayout>

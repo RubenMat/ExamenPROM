@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dm2.myapplication.Eltiempo">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textoArriba"
+        android:textSize="20dp"
+        android:text="@string/textoArriba"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnVitoria"
+        android:layout_below="@+id/textoArriba"
+        android:layout_marginLeft="25dp"
+        android:text="@string/Vitoria"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBilbao"
+        android:layout_below="@id/btnVitoria"
+        android:layout_alignLeft="@id/btnVitoria"
+        android:text="@string/Bilbao"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDonosti"
+        android:layout_below="@id/btnBilbao"
+        android:layout_alignLeft="@id/btnVitoria"
+        android:text="@string/Donosti"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDonosti"
+        android:textSize="20dp"
+        android:id="@+id/textoMedio"
+        android:text="@string/textoMedio"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/txtTiempo"
+        android:layout_below="@id/textoMedio"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTiempo"
+        android:layout_marginLeft="250dp"
+        android:id="@+id/btnSalirTiempo"
+        android:text="@string/Volver"/>
+
+</RelativeLayout>

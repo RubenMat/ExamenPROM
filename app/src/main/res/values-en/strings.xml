@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animales">
+        <item>Donkey</item>
+        <item>Horse</item>
+        <item>Goat</item>
+        <item>Chicken</item>
+        <item>Cock</item>
+        <item>Cat</item>
+        <item>Sheep</item>
+        <item>Cow</item>
+    </string-array>
+    <string name="app_name">Examen PROM</string>
+    <string name="titulo1">HOME</string>
+    <string name="btnTiempo">WEATHER</string>
+    <string name="btnAtomicos">ATOMIC DATA ??</string>
+    <string name="btnMultimedia">MEDIA</string>
+    <string name="btnSalir">EXIT</string>
+
+    <string name="Vitoria">Vitoria-Gasteiz</string>
+    <string name="Bilbao">Bilbao</string>
+    <string name="Donosti">Donostia-San Sebastián</string>
+    <string name="textoArriba">Pick the location where you want to check the weather</string>
+    <string name="textoMedio">Actual weather at: </string>
+    <string name="Volver">Back</string>
+
+    <string name="textoAtomico">Type the name of a chemist element:</string>
+    <string name="btnInformacion">INFO OF THE ELEMENT</string>
+
+    <string name="multimedia">Farm Animals</string>
+</resources>
